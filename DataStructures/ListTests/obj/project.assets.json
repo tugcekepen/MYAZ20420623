@@ -6136,11 +6136,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MYAZ20420623\\DataStructures\\ListTests\\ListTests.csproj",
+      "projectUniqueName": "D:\\MYAZ204206_23\\DataStructures\\ListTests\\ListTests.csproj",
       "projectName": "ListTests",
-      "projectPath": "D:\\MYAZ20420623\\DataStructures\\ListTests\\ListTests.csproj",
+      "projectPath": "D:\\MYAZ204206_23\\DataStructures\\ListTests\\ListTests.csproj",
       "packagesPath": "C:\\Users\\ATB\\.nuget\\packages\\",
-      "outputPath": "D:\\MYAZ20420623\\DataStructures\\ListTests\\obj\\",
+      "outputPath": "D:\\MYAZ204206_23\\DataStructures\\ListTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6162,8 +6162,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\MYAZ20420623\\DataStructures\\List\\List.csproj": {
-              "projectPath": "D:\\MYAZ20420623\\DataStructures\\List\\List.csproj"
+            "D:\\MYAZ204206_23\\DataStructures\\List\\List.csproj": {
+              "projectPath": "D:\\MYAZ204206_23\\DataStructures\\List\\List.csproj"
             }
           }
         }

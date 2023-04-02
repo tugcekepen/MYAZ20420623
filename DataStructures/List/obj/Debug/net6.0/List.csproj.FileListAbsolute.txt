@@ -22,3 +22,15 @@ E:\MYAZ20420623\DataStructures\List\obj\Debug\net6.0\List.dll
 E:\MYAZ20420623\DataStructures\List\obj\Debug\net6.0\refint\List.dll
 E:\MYAZ20420623\DataStructures\List\obj\Debug\net6.0\List.pdb
 E:\MYAZ20420623\DataStructures\List\obj\Debug\net6.0\ref\List.dll
+D:\MYAZ204206_23\DataStructures\List\bin\Debug\net6.0\List.deps.json
+D:\MYAZ204206_23\DataStructures\List\bin\Debug\net6.0\List.dll
+D:\MYAZ204206_23\DataStructures\List\bin\Debug\net6.0\List.pdb
+D:\MYAZ204206_23\DataStructures\List\obj\Debug\net6.0\List.csproj.AssemblyReference.cache
+D:\MYAZ204206_23\DataStructures\List\obj\Debug\net6.0\List.GeneratedMSBuildEditorConfig.editorconfig
+D:\MYAZ204206_23\DataStructures\List\obj\Debug\net6.0\List.AssemblyInfoInputs.cache
+D:\MYAZ204206_23\DataStructures\List\obj\Debug\net6.0\List.AssemblyInfo.cs
+D:\MYAZ204206_23\DataStructures\List\obj\Debug\net6.0\List.csproj.CoreCompileInputs.cache
+D:\MYAZ204206_23\DataStructures\List\obj\Debug\net6.0\List.dll
+D:\MYAZ204206_23\DataStructures\List\obj\Debug\net6.0\refint\List.dll
+D:\MYAZ204206_23\DataStructures\List\obj\Debug\net6.0\List.pdb
+D:\MYAZ204206_23\DataStructures\List\obj\Debug\net6.0\ref\List.dll

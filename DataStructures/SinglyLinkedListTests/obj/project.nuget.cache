@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hs6noAxTRST7lRl5IkRXmBKWldgKX5JVRO6RgYwYz57VubCCgMMZ4oloVkR6obsPBcvoBYnToLb1CGv/fFMjkg==",
+  "dgSpecHash": "rdpZnA+Wp+31O+1/vVsJVi6aRhNMegQivdLvfNZb9rWxdlMAml4DslHzz6eNri0L/Omng9C3dAQJ9BUExnNTgA==",
   "success": true,
-  "projectFilePath": "D:\\MYAZ20420623\\DataStructures\\SinglyLinkedListTests\\SinglyLinkedListTests.csproj",
+  "projectFilePath": "D:\\MYAZ204206_23\\DataStructures\\SinglyLinkedListTests\\SinglyLinkedListTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ATB\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\ATB\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

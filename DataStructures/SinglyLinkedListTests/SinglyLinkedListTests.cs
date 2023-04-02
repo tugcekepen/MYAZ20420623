@@ -16,9 +16,9 @@ namespace SinglyLinkedListTests
             linkedList.AddFirst(30);
 
             // Assert
-            Assert.Equal(linkedList.Head.ToString(), "30");
-            Assert.Equal(linkedList.Head.Next.Value, 20);
-            Assert.Equal(linkedList.Head.Next.Next.Value, 10);
+            Assert.Equal("30", linkedList.Head.ToString());
+            Assert.Equal(20, linkedList.Head.Next.Value);
+            Assert.Equal(10, linkedList.Head.Next.Next.Value);
 
         }
 
@@ -34,9 +34,9 @@ namespace SinglyLinkedListTests
             linkedList.AddLast(30);     // 10 -> 20 -> 30
 
             // Assert
-            Assert.Equal(linkedList.Head.ToString(), "10");
-            Assert.Equal(linkedList.Head.Next.Value, 20);
-            Assert.Equal(linkedList.Head.Next.Next.Value, 30);
+            Assert.Equal("10", linkedList.Head.ToString());
+            Assert.Equal(20, linkedList.Head.Next.Value);
+            Assert.Equal(30, linkedList.Head.Next.Next.Value);
 
         }
 
@@ -52,9 +52,9 @@ namespace SinglyLinkedListTests
             linkedList.AddFirst('c');
 
             // assert
-            Assert.Equal(linkedList.Head.Value, 'c');
-            Assert.Equal(linkedList.Head.Next.Value, 'b');
-            Assert.Equal(linkedList.Head.Next.Next.Value, 'a');
+            Assert.Equal('c', linkedList.Head.Value);
+            Assert.Equal('b', linkedList.Head.Next.Value);
+            Assert.Equal('a', linkedList.Head.Next.Next.Value);
         }
 
         [Fact]
@@ -72,14 +72,13 @@ namespace SinglyLinkedListTests
             linkedList.AddLast('z');    // c - b - a - x - y -z
 
             // assert
-            Assert.Equal(linkedList.Head.Value, 'c');
-            Assert.Equal(linkedList.Head.Next.Value, 'b');
-            Assert.Equal(linkedList.Head.Next.Next.Value, 'a');
-            Assert.Equal(linkedList.Head.Next.Next.Next.Value, 'x');
-            Assert.Equal(linkedList.Head.Next.Next.Next.Next.Value, 'y');
-            Assert.Equal(linkedList.Head.Next.Next.Next.Next.Next.Value, 'z');
+            Assert.Equal('c', linkedList.Head.Value);
+            Assert.Equal('b', linkedList.Head.Next.Value);
+            Assert.Equal('a', linkedList.Head.Next.Next.Value);
+            Assert.Equal('x', linkedList.Head.Next.Next.Next.Value);
+            Assert.Equal('y', linkedList.Head.Next.Next.Next.Next.Value);
+            Assert.Equal('z', linkedList.Head.Next.Next.Next.Next.Next.Value);
         }
-
 
         [Fact]
         public void SinglyLinkedList_AddBefore_Test()
@@ -94,8 +93,8 @@ namespace SinglyLinkedListTests
            
 
             // assert
-            Assert.Equal(linkedList.Head.Value, 'c');
-            Assert.Equal(linkedList.Head.Next.Value, 'x');
+            Assert.Equal('c', linkedList.Head.Value);
+            Assert.Equal('x', linkedList.Head.Next.Value);
       
         }
 
@@ -111,7 +110,7 @@ namespace SinglyLinkedListTests
             var node = new SinglyLinkedListNode<char>('y');
 
             // assert
-            Assert.Throws<Exception>(() => linkedList.AddBefore(node, 'x'));
+            Assert.Throws<Exception>( () => linkedList.AddBefore(node, 'x') ); //!!! //act'ı ok fonk.'u içinde vermemiz gerekti doğal olr.
         }
 
         /// <summary>
@@ -130,8 +129,8 @@ namespace SinglyLinkedListTests
 
 
             // assert
-            Assert.Equal(linkedList.Head.Value, 'c');
-            Assert.Equal(linkedList.Head.Next.Next.Value, 'x');
+            Assert.Equal('c', linkedList.Head.Value);
+            Assert.Equal('x', linkedList.Head.Next.Next.Value);
 
         }
 
@@ -167,7 +166,6 @@ namespace SinglyLinkedListTests
 
             var item = linkedList.RemoveFirst();  // b a
 
-
             // assert
             Assert.Equal('c', item);
             Assert.Equal('b', linkedList.Head.Value);
@@ -184,7 +182,6 @@ namespace SinglyLinkedListTests
             linkedList.AddFirst('a');   // a
 
             var item = linkedList.RemoveFirst();  // null
-
 
             // assert
             Assert.Equal('a', item);
@@ -222,11 +219,11 @@ namespace SinglyLinkedListTests
             var item3 = linkedList.RemoveLast();
 
             // assert
-            Assert.Equal('c', item1);
+            Assert.Equal('a', item1);
             Assert.Equal('b', item2);
             
             // -> Son eleman
-            Assert.Equal('a', item3);
+            Assert.Equal('c', item3);
         }
 
         /// <summary>
@@ -240,6 +237,39 @@ namespace SinglyLinkedListTests
 
             // assert
             Assert.Throws<Exception>(() => linkedList.RemoveLast());
+        }
+
+        [Fact]
+        public void SinglyLinkedList_Remove_Test()
+        {
+            // arrange 
+            var linkedList = new SinglyLinkedList<char>();
+            linkedList.AddFirst('a');   // a
+            linkedList.AddFirst('b');   // b - a
+            linkedList.AddFirst('c');   // c - b - a
+
+            var linkedList2 = new SinglyLinkedList<char>();
+
+            var newNode1 = new SinglyLinkedListNode<char>('b');
+            var newNode2 = new SinglyLinkedListNode<char>('c');
+            var newNode3 = new SinglyLinkedListNode<char>('a');
+
+            var newNode4 = new SinglyLinkedListNode<char>('d');
+
+            // act
+            var item1 = linkedList.Remove(newNode1);
+            var item2 = linkedList.Remove(newNode2);
+            var item3 = linkedList.Remove(newNode3);
+
+            // assert
+            Assert.Equal('b', item1);
+            Assert.Equal('c', item2);
+            Assert.Equal('a', item3);
+
+            Assert.Throws<Exception>( () => linkedList.Remove(newNode4) );
+
+            Assert.Throws<Exception>( () => linkedList2.Remove(newNode1) );
+
         }
     }
 }

@@ -1,13 +1,12 @@
 ﻿using LinkedList.Singly;
 
+//TRADE OF --> Her şeyin bir bedeli var yaklaşımı, bir yerden kazanmak isterken başka bir yerden kaybedebiliriz.
+/*
+            -LinkedList-      -Array-
+Insert  :       Fast           Slow
+Search  :       Slow           Fast
 
-
-
-
-
-
-
-
+*/
 
 
 var node1 = new SinglyLinkedListNode<int>();
@@ -29,7 +28,7 @@ Console.WriteLine(node1.Next.Next);
 
 Console.WriteLine(new String('-',20));
 
-// ? 
+// ?  !!!!!!!
 var current = node1;
 while(current != null)
 {

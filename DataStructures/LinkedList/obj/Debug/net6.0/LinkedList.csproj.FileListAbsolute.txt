@@ -22,3 +22,15 @@ C:\Users\PREDATOR\Source\Repos\MYAZ20420623\DataStructures\LinkedList\obj\Debug\
 C:\Users\PREDATOR\Source\Repos\MYAZ20420623\DataStructures\LinkedList\obj\Debug\net6.0\refint\LinkedList.dll
 C:\Users\PREDATOR\Source\Repos\MYAZ20420623\DataStructures\LinkedList\obj\Debug\net6.0\LinkedList.pdb
 C:\Users\PREDATOR\Source\Repos\MYAZ20420623\DataStructures\LinkedList\obj\Debug\net6.0\ref\LinkedList.dll
+D:\MYAZ204206_23\DataStructures\LinkedList\bin\Debug\net6.0\LinkedList.deps.json
+D:\MYAZ204206_23\DataStructures\LinkedList\bin\Debug\net6.0\LinkedList.dll
+D:\MYAZ204206_23\DataStructures\LinkedList\bin\Debug\net6.0\LinkedList.pdb
+D:\MYAZ204206_23\DataStructures\LinkedList\obj\Debug\net6.0\LinkedList.csproj.AssemblyReference.cache
+D:\MYAZ204206_23\DataStructures\LinkedList\obj\Debug\net6.0\LinkedList.GeneratedMSBuildEditorConfig.editorconfig
+D:\MYAZ204206_23\DataStructures\LinkedList\obj\Debug\net6.0\LinkedList.AssemblyInfoInputs.cache
+D:\MYAZ204206_23\DataStructures\LinkedList\obj\Debug\net6.0\LinkedList.AssemblyInfo.cs
+D:\MYAZ204206_23\DataStructures\LinkedList\obj\Debug\net6.0\LinkedList.csproj.CoreCompileInputs.cache
+D:\MYAZ204206_23\DataStructures\LinkedList\obj\Debug\net6.0\LinkedList.dll
+D:\MYAZ204206_23\DataStructures\LinkedList\obj\Debug\net6.0\refint\LinkedList.dll
+D:\MYAZ204206_23\DataStructures\LinkedList\obj\Debug\net6.0\LinkedList.pdb
+D:\MYAZ204206_23\DataStructures\LinkedList\obj\Debug\net6.0\ref\LinkedList.dll

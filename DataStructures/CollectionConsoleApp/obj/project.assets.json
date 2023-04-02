@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MYAZ20420623\\DataStructures\\CollectionConsoleApp\\CollectionConsoleApp.csproj",
+      "projectUniqueName": "D:\\MYAZ204206_23\\DataStructures\\CollectionConsoleApp\\CollectionConsoleApp.csproj",
       "projectName": "CollectionConsoleApp",
-      "projectPath": "D:\\MYAZ20420623\\DataStructures\\CollectionConsoleApp\\CollectionConsoleApp.csproj",
+      "projectPath": "D:\\MYAZ204206_23\\DataStructures\\CollectionConsoleApp\\CollectionConsoleApp.csproj",
       "packagesPath": "C:\\Users\\ATB\\.nuget\\packages\\",
-      "outputPath": "D:\\MYAZ20420623\\DataStructures\\CollectionConsoleApp\\obj\\",
+      "outputPath": "D:\\MYAZ204206_23\\DataStructures\\CollectionConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

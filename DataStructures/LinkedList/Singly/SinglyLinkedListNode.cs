@@ -3,6 +3,7 @@
 namespace LinkedList.Singly
 {
     public class SinglyLinkedListNode<T>
+       // where T: class // T tipini sınırlama
     {
         public T? Value { get; set; }
 

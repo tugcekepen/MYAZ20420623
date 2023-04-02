@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MYAZ20420623\\DataStructures\\List\\List.csproj": {}
+    "D:\\MYAZ204206_23\\DataStructures\\List\\List.csproj": {}
   },
   "projects": {
-    "D:\\MYAZ20420623\\DataStructures\\List\\List.csproj": {
+    "D:\\MYAZ204206_23\\DataStructures\\List\\List.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MYAZ20420623\\DataStructures\\List\\List.csproj",
+        "projectUniqueName": "D:\\MYAZ204206_23\\DataStructures\\List\\List.csproj",
         "projectName": "List",
-        "projectPath": "D:\\MYAZ20420623\\DataStructures\\List\\List.csproj",
+        "projectPath": "D:\\MYAZ204206_23\\DataStructures\\List\\List.csproj",
         "packagesPath": "C:\\Users\\ATB\\.nuget\\packages\\",
-        "outputPath": "D:\\MYAZ20420623\\DataStructures\\List\\obj\\",
+        "outputPath": "D:\\MYAZ204206_23\\DataStructures\\List\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

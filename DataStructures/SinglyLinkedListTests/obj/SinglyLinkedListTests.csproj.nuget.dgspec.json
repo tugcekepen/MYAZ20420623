@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MYAZ20420623\\DataStructures\\SinglyLinkedListTests\\SinglyLinkedListTests.csproj": {}
+    "D:\\MYAZ204206_23\\DataStructures\\SinglyLinkedListTests\\SinglyLinkedListTests.csproj": {}
   },
   "projects": {
-    "D:\\MYAZ20420623\\DataStructures\\LinkedList\\LinkedList.csproj": {
+    "D:\\MYAZ204206_23\\DataStructures\\LinkedList\\LinkedList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MYAZ20420623\\DataStructures\\LinkedList\\LinkedList.csproj",
+        "projectUniqueName": "D:\\MYAZ204206_23\\DataStructures\\LinkedList\\LinkedList.csproj",
         "projectName": "LinkedList",
-        "projectPath": "D:\\MYAZ20420623\\DataStructures\\LinkedList\\LinkedList.csproj",
+        "projectPath": "D:\\MYAZ204206_23\\DataStructures\\LinkedList\\LinkedList.csproj",
         "packagesPath": "C:\\Users\\ATB\\.nuget\\packages\\",
-        "outputPath": "D:\\MYAZ20420623\\DataStructures\\LinkedList\\obj\\",
+        "outputPath": "D:\\MYAZ204206_23\\DataStructures\\LinkedList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -64,14 +64,14 @@
         }
       }
     },
-    "D:\\MYAZ20420623\\DataStructures\\SinglyLinkedListTests\\SinglyLinkedListTests.csproj": {
+    "D:\\MYAZ204206_23\\DataStructures\\SinglyLinkedListTests\\SinglyLinkedListTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MYAZ20420623\\DataStructures\\SinglyLinkedListTests\\SinglyLinkedListTests.csproj",
+        "projectUniqueName": "D:\\MYAZ204206_23\\DataStructures\\SinglyLinkedListTests\\SinglyLinkedListTests.csproj",
         "projectName": "SinglyLinkedListTests",
-        "projectPath": "D:\\MYAZ20420623\\DataStructures\\SinglyLinkedListTests\\SinglyLinkedListTests.csproj",
+        "projectPath": "D:\\MYAZ204206_23\\DataStructures\\SinglyLinkedListTests\\SinglyLinkedListTests.csproj",
         "packagesPath": "C:\\Users\\ATB\\.nuget\\packages\\",
-        "outputPath": "D:\\MYAZ20420623\\DataStructures\\SinglyLinkedListTests\\obj\\",
+        "outputPath": "D:\\MYAZ204206_23\\DataStructures\\SinglyLinkedListTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -93,8 +93,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\MYAZ20420623\\DataStructures\\LinkedList\\LinkedList.csproj": {
-                "projectPath": "D:\\MYAZ20420623\\DataStructures\\LinkedList\\LinkedList.csproj"
+              "D:\\MYAZ204206_23\\DataStructures\\LinkedList\\LinkedList.csproj": {
+                "projectPath": "D:\\MYAZ204206_23\\DataStructures\\LinkedList\\LinkedList.csproj"
               }
             }
           }
