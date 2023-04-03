@@ -2,7 +2,7 @@
 using System.Collections;
 
 namespace Array;
-public class Array : IEnumerable
+public partial class Array : IEnumerable
 {
     // Object
     // Type : Array
