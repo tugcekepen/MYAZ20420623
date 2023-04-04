@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,9 +7,21 @@ using System.Threading.Tasks;
 
 namespace LinkedList.Singly
 {
-    public class SinglyLinkedList<T>
+    public class SinglyLinkedList<T> : IEnumerable<T>
     {
-        // Auto-implemented propert
+        #region notlar
+        //LinkedList, DİNAMİKTİR.
+        //Bağlı listede, array'de olduğu gibi istenilen göze doğrudan erişebilme özelliği yok.
+        //Bir Head belirlememiz gerekiyor. Yani koleksiyona nereden dahil olacağımızı bilmeliyiz.
+
+        //Arrayda Preallocation vardır. Önceden yer/boyut belirleriz. block allocation
+        //LinkedList'de bu yoktur. Separate Allocation. Verilerimiz, bellekte yer olduğu müddetçe(Stack OverFlow olmuyorsa), her biri birbirinden ayrı ve node'lar halinde alan tutar.
+
+        //Bir sınıfa iterasyon özelliklerini kazandırmak için gereken tüm özellikler IEnumerator interface’i aracılığıyla elde edilebilmektedir. !!!
+        //IEnumerable interface’i ise bir sınıfa foreach mekanizması tarafından tanınması için gerekli yetenekleri/nitelikleri kazandırır. Yani enumerator yapısını… !!!
+        #endregion
+
+        // Auto-implemented property
         public SinglyLinkedListNode<T>? Head { get; set; } //başlangıç noktası olan node'dur aslında. listenin başlangıç elemanı diye düşünülebilir.
 
         public SinglyLinkedList()
@@ -17,10 +30,21 @@ namespace LinkedList.Singly
         }
 
         /// <summary>
+        /// Iterable olan herh bir veriyi/koleksiyonu parametre olr alsın ve bağlı listeye çevirsin.
+        /// </summary>
+        public SinglyLinkedList(IEnumerable<T> collection)
+        {
+            foreach (var item in collection)
+            {
+                AddFirst(item);
+            }
+        }
+
+        /// <summary>
         /// Bağlı listenin başına eleman ekler
         /// </summary>
         /// <param name="item"></param>
-        public void AddFirst(T item)
+        public void AddFirst(T item) // O(1)
         {
             // önce düğüm oluşturman gerekir!!!!!!!!!!!!!! eklenecek şey bir düğüm olacak!
             var node = new SinglyLinkedListNode<T>()
@@ -44,7 +68,7 @@ namespace LinkedList.Singly
         /// Bağlı listenin sonuna eleman ekler. 
         /// </summary>
         /// <param name="item"></param>
-        public void AddLast(T item)
+        public void AddLast(T item) // O(n) n:kaç tane eleman varsa
         {
             // T ifadesini düğüme çevir
             var node = new SinglyLinkedListNode<T>(item);
@@ -130,7 +154,7 @@ namespace LinkedList.Singly
             }
             throw new Exception("The node could not be found in the linked list.");
         }
-
+         
         /// <summary>
             /// Week 4 - Bağlı listenin başındaki düğümü çıkarır.
             /// Çıkarılan düğümün değerini geri döndürür.
@@ -218,6 +242,23 @@ namespace LinkedList.Singly
                 current = current.Next;
             }
             throw new Exception("The node could not be found in the linked list.");
+        }
+
+
+        //Enumerator; bağlı listelerde farklı, çift yönlü bağlı listelerde farklı, arraylerde farklı, ağaçlarda farklı çalışır.
+        //Fakat temelde, koleksiyondaki elemanları sırayla dolaşmak için kullandığımız bir yapıdır.
+        public IEnumerator<T> GetEnumerator() //interface'ler referans tutucudur.
+        {   
+            /*
+            foreach döngüsü bir sınıf üzerinde çalışacaksa o sınıfın kesinlikle ve kesinlikle
+            içerisinde geriye IEnumerator döndüren GetEnumerator metodunun bulunmasını ister. Tek şartı budur.
+            */
+            return new SinglyLinkedListEnumerator<T>(Head); //bu classın IEnumerator<T> tipiyle geri dönebilmesi için IEnumerator<T>'yi kalıtımla devralması lazım. ---Polimorfizm---
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
         }
     }
 }

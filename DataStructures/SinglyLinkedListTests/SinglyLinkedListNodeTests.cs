@@ -26,8 +26,8 @@ namespace SinglyLinkedListTests
 
             // assert
             Assert.Equal(node1.Next, node2);
-            Assert.Equal(node1.Value, 10);
-            Assert.Equal(node1.Next.Value, 20);
+            Assert.Equal(10, node1.Value);
+            Assert.Equal(20, node1.Next.Value);
             Assert.True(node1.Next.Value == node2.Value);
         }
     }

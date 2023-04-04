@@ -271,5 +271,76 @@ namespace SinglyLinkedListTests
             Assert.Throws<Exception>( () => linkedList2.Remove(newNode1) );
 
         }
+
+        [Fact]
+        public void SinglyLinkedList_GetEnumerator_Test()
+        {
+            // Arrange && Act
+            var list = new SinglyLinkedList<int>();
+            list.AddLast(10);
+            list.AddLast(20);
+            list.AddLast(30);
+
+            Assert.Collection<int>(list,
+                item => Assert.Equal(10, item),
+                item => Assert.Equal(20, item),
+                item => Assert.Equal(30, item));
+        }//teori-week5
+
+        [Fact]
+        public void SinglyLinkedList_Constructor_For_Char_Array_Input_Test()
+        {
+            //Arrange & Act
+            var list = new SinglyLinkedList<char>("samsun".ToArray());
+            var list2 = new SinglyLinkedList<char>(new HashSet<char>("samsun".ToCharArray()));
+
+            //Assert
+            Assert.Collection<char>(list,
+                item => Assert.Equal('n', item),
+                item => Assert.Equal('u', item),
+                item => Assert.Equal('s', item),
+                item => Assert.Equal('m', item),
+                item => Assert.Equal('a', item),
+                item => Assert.Equal('s', item));
+
+            Assert.Collection<char>(list2,
+                item => Assert.Equal('n', item),
+                item => Assert.Equal('u', item),
+                item => Assert.Equal('m', item),
+                item => Assert.Equal('a', item),
+                item => Assert.Equal('s', item));
+        }//teori-week5
+
+        [Fact]
+        public void SinglyLinkedList_Constructor_For_List_Input_Test()
+        {
+            // Arrange && Act
+            var list = new SinglyLinkedList<int>(new List<int>() { 5, 10, 15, 20 });
+
+            // Assert
+            // 20 15 10 5
+            Assert.Collection<int>(list,
+                item => Assert.Equal(20, item),
+                item => Assert.Equal(15, item),
+                item => Assert.Equal(10, item),
+                item => Assert.Equal(5, item));
+        }//teori-week5
+        
+        [Fact]
+        public void SinglyLinkedList_Constructor_For_SortedSet_Input_Test()
+        {
+            // Arrange && Act
+            var list = new SinglyLinkedList<int>(new SortedSet<int>() { 23, 16, 23, 55, 61, 23, 44 });
+
+            // Assert
+            // 16 23 23 44 55 61 
+            // 61 55 44 23 16
+            Assert.Collection<int>(list,
+                item => Assert.Equal(61, item),
+                item => Assert.Equal(55, item),
+                item => Assert.Equal(44, item),
+                item => Assert.Equal(23, item),
+                item => Assert.Equal(16, item));
+        }//teori-week5
     }
 }

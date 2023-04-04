@@ -58,9 +58,11 @@ Console.ReadKey();
 // array bir instance (örnektir)
 var array = new Array.Array();
 
-// -  Bir sınıftan new'leme yapıyorsak ürettiğimiz şeye(burada "array") INSTANCE denir. !!!
-// -  instance üzerinden ulaştığımız bütün elemanlara ise INSTANCE MEMBER denir. !!! 
-// -  direkt Array.Array. ...  üzerinden yani sınıf üzerinden ulaştıklarımıza ise CLASS MEMBER denir. !!!
+    #region notlar
+    // -  Bir sınıftan new'leme yapıyorsak ürettiğimiz şeye(burada "array") INSTANCE denir. !!!
+    // -  instance üzerinden ulaştığımız bütün elemanlara ise INSTANCE MEMBER denir. !!! 
+    // -  direkt Array.Array. ...  üzerinden yani sınıf üzerinden ulaştıklarımıza ise CLASS MEMBER denir. !!!
+    #endregion
 
 array.Add("Ahmet");     // 0    4       //instance member : "Ahmet"
 array.Add("Mehmet");    // 1    4       //instance member : "Mehmet"

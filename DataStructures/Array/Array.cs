@@ -6,7 +6,13 @@ public partial class Array : IEnumerable
 {
     // Object
     // Type : Array
+
+    #region notlar
     //Diziler-Array'ler STATİKTİR.
+    //Dizilerin sağladığı en büyük avantaj;
+    //    *  RAM(Random Access Memory)dir. İlgili alana doğrudan erişim sağlayabilme olanağımız vardır. Rastgele istediğimiz göze hızlıca doğrudan erişim hakkı tanır. O(1)
+    #endregion
+
     private Object[] _InnerArray; // null
     private int index = 0;
     public int Count => index;  // Dizi kaç eleman var? //sadece get kullandık
