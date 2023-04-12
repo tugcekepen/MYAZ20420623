@@ -6120,11 +6120,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MYAZ204206_23\\DataStructures\\CollectionTests\\CollectionTests.csproj",
+      "projectUniqueName": "D:\\MYAZ20420623\\DataStructures\\CollectionTests\\CollectionTests.csproj",
       "projectName": "CollectionTests",
-      "projectPath": "D:\\MYAZ204206_23\\DataStructures\\CollectionTests\\CollectionTests.csproj",
+      "projectPath": "D:\\MYAZ20420623\\DataStructures\\CollectionTests\\CollectionTests.csproj",
       "packagesPath": "C:\\Users\\ATB\\.nuget\\packages\\",
-      "outputPath": "D:\\MYAZ204206_23\\DataStructures\\CollectionTests\\obj\\",
+      "outputPath": "D:\\MYAZ20420623\\DataStructures\\CollectionTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6195,7 +6195,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

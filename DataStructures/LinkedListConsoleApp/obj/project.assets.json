@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MYAZ204206_23\\DataStructures\\LinkedListConsoleApp\\LinkedListConsoleApp.csproj",
+      "projectUniqueName": "D:\\MYAZ20420623\\DataStructures\\LinkedListConsoleApp\\LinkedListConsoleApp.csproj",
       "projectName": "LinkedListConsoleApp",
-      "projectPath": "D:\\MYAZ204206_23\\DataStructures\\LinkedListConsoleApp\\LinkedListConsoleApp.csproj",
+      "projectPath": "D:\\MYAZ20420623\\DataStructures\\LinkedListConsoleApp\\LinkedListConsoleApp.csproj",
       "packagesPath": "C:\\Users\\ATB\\.nuget\\packages\\",
-      "outputPath": "D:\\MYAZ204206_23\\DataStructures\\LinkedListConsoleApp\\obj\\",
+      "outputPath": "D:\\MYAZ20420623\\DataStructures\\LinkedListConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,8 +59,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\MYAZ204206_23\\DataStructures\\LinkedList\\LinkedList.csproj": {
-              "projectPath": "D:\\MYAZ204206_23\\DataStructures\\LinkedList\\LinkedList.csproj"
+            "D:\\MYAZ20420623\\DataStructures\\LinkedList\\LinkedList.csproj": {
+              "projectPath": "D:\\MYAZ20420623\\DataStructures\\LinkedList\\LinkedList.csproj"
             }
           }
         }
@@ -90,7 +90,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

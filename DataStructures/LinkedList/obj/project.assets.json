@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MYAZ204206_23\\DataStructures\\LinkedList\\LinkedList.csproj",
+      "projectUniqueName": "D:\\MYAZ20420623\\DataStructures\\LinkedList\\LinkedList.csproj",
       "projectName": "LinkedList",
-      "projectPath": "D:\\MYAZ204206_23\\DataStructures\\LinkedList\\LinkedList.csproj",
+      "projectPath": "D:\\MYAZ20420623\\DataStructures\\LinkedList\\LinkedList.csproj",
       "packagesPath": "C:\\Users\\ATB\\.nuget\\packages\\",
-      "outputPath": "D:\\MYAZ204206_23\\DataStructures\\LinkedList\\obj\\",
+      "outputPath": "D:\\MYAZ20420623\\DataStructures\\LinkedList\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

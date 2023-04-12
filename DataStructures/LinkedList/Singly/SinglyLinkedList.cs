@@ -24,6 +24,9 @@ namespace LinkedList.Singly
         // Auto-implemented property
         public SinglyLinkedListNode<T>? Head { get; set; } //başlangıç noktası olan node'dur aslında. listenin başlangıç elemanı diye düşünülebilir.
 
+        private int _count = 0;
+        public int Count => _count;
+
         public SinglyLinkedList()
         {
             
@@ -56,11 +59,13 @@ namespace LinkedList.Singly
             if (Head is null)
             {
                 Head = node;
+                _count++;
                 return; //return illa geriye bir şey döndürüyor demek değil. böyle kullanıldığında fonksiyonu burada kesecek.!
             }
 
             node.Next = Head;
             Head = node;
+            _count++;
             return;
         }
 
@@ -77,6 +82,7 @@ namespace LinkedList.Singly
             if (Head is null)
             {
                 Head = node;
+                _count++;
                 return;
             }
 
@@ -89,6 +95,7 @@ namespace LinkedList.Singly
                 current = current.Next;
             }
             prev.Next = node;
+            _count++;
             return;
         }
 
@@ -114,6 +121,7 @@ namespace LinkedList.Singly
                 {
                     newNode.Next = prev.Next;
                     prev.Next = newNode;
+                    _count++;
                     return;
                 }
                 prev = current;
@@ -147,6 +155,7 @@ namespace LinkedList.Singly
                 {
                     newNode.Next = prev.Next.Next; // newNode.Next = current.Next;
                     prev.Next.Next = newNode;      // current.Next = newNode;
+                    _count++;
                     return;
                 }
                 prev = current;
@@ -166,16 +175,10 @@ namespace LinkedList.Singly
             {
                 throw new Exception("The linked list is empty.");
             }
-            if (Head.Next == null)
-            {
-                var item = Head.Value;
-                Head = Head.Next;
-                return item;
-            }
-            var current = Head;
+            
             var removed = Head.Value;
-            Head = current.Next;
-            current = null;
+            Head = Head.Next;
+            _count--;
             return removed;
         }
 
@@ -194,6 +197,7 @@ namespace LinkedList.Singly
             {
                 var item = Head.Value;
                 Head = null;
+                _count--;
                 return item;
             }
             var current = Head;
@@ -208,6 +212,7 @@ namespace LinkedList.Singly
                 }
                 current = current.Next;
             }
+            _count--;
             return removed;
         }
 
@@ -237,6 +242,7 @@ namespace LinkedList.Singly
                 {
                     var item = current.Next.Value;
                     current.Next = current.Next.Next;
+                    _count--;
                     return item;
                 }
                 current = current.Next;
