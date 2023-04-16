@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LinkedList.Singly
 {
-    public class SinglyLinkedList<T> : IEnumerable<T>
+    public partial class SinglyLinkedList<T> : IEnumerable<T>
     {
         #region notlar
         //LinkedList, DİNAMİKTİR.
@@ -29,7 +29,6 @@ namespace LinkedList.Singly
 
         public SinglyLinkedList()
         {
-            
         }
 
         /// <summary>

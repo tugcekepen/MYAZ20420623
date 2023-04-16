@@ -16,14 +16,20 @@ namespace Stack
             _innerList = new SinglyLinkedList<T>();
         }
 
+        public LinkedListStack(IEnumerable<T> collection) : this()
+        {
+            foreach (var item in collection)
+            {
+                Push(item);
+            }
+        }
+
         //bağlı listede Count özelliğine bakılarak implemente edeceğiz
         public int Count => _innerList.Count;
 
         public T Peek()
         {
-            return _innerList.Head is null
-                ? default(T)
-                : _innerList.Head.Value;
+            return _innerList.Head is null ? default(T) : _innerList.Head.Value;
         }
 
         public T Pop()
