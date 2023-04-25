@@ -10,7 +10,6 @@ namespace Stack
     public class ArrayStack<T> : IStack<T>
     {
         private List<T> _innerArray;
-        private int LastIndex => Count - 1;
         public ArrayStack()
         {
             _innerArray = new List<T>();
@@ -28,7 +27,7 @@ namespace Stack
 
         public T Peek()
         {
-            return Count == 0 ? default(T) : _innerArray[LastIndex];
+            return Count == 0 ? default(T) : _innerArray[_innerArray.Count-1];
         }
 
         public T Pop()
@@ -37,8 +36,8 @@ namespace Stack
             {
                 throw new Exception("Underflow! Empty stack!");
             }
-            var temp = _innerArray[LastIndex];
-            _innerArray.RemoveAt(LastIndex);
+            var temp = _innerArray[_innerArray.Count - 1];
+            _innerArray.RemoveAt(_innerArray.Count - 1);
             return temp;
         }
 

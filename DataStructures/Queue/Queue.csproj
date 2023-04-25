@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Array\Array.csproj" />
     <ProjectReference Include="..\LinkedList\LinkedList.csproj" />
+    <ProjectReference Include="..\List\List.csproj" />
   </ItemGroup>
 
 </Project>

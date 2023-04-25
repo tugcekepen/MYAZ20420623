@@ -5,30 +5,39 @@ namespace Queue
 {
     public class LinkedListQueue<T> : IQueue<T>
     {
-        private DbLinkedList<T> linkedlistqueue;
+        //Kuyruk yapısı, iki ucu açık yapı olduğundan dolayı doubly linked list'te bulunan head ve tail gibi özellikler ile işlemlerimiz kolay olacaktır.
+        private DbLinkedList<T> _linkedlistqueue;
 
         public LinkedListQueue()
         {
-            linkedlistqueue = new DbLinkedList<T>();
+            _linkedlistqueue = new DbLinkedList<T>();
         }
 
-        public int Count => linkedlistqueue.Count();
+        public LinkedListQueue(IEnumerable<T> collection) : this()
+        {
+            foreach (T item in collection)
+            {
+                Enqueue(item);
+            }
+        }
+
+        public int Count => _linkedlistqueue.Count();
 
         public T Dequeue()
         {
-            if (linkedlistqueue.Head is null)
+            if (_linkedlistqueue.Head is null)
                 throw new Exception("The queue is empty!");
-            return linkedlistqueue.RemoveFirst();
+            return _linkedlistqueue.RemoveFirst();
         }
 
         public void Enqueue(T item)
         {
-            linkedlistqueue.AddLast(item);
+            _linkedlistqueue.AddLast(item);
         }
 
         public T Peek()
         {
-            return linkedlistqueue.Head is null ? default : linkedlistqueue.Head.Value;
+            return _linkedlistqueue.Head is null ? default : _linkedlistqueue.Head.Value;
         }
     }
 }

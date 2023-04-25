@@ -25,7 +25,7 @@ namespace LinkedList.Doubly
             Tail = null;
         }
 
-        public bool MoveNext() //tersten çalışıyor
+        public bool MoveNext()
         {
             if (Head == null)
                 return false;

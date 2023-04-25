@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "Array/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Array.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Array.dll": {}
+        }
+      },
       "LinkedList/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -11,19 +21,41 @@
         "runtime": {
           "bin/placeholder/LinkedList.dll": {}
         }
+      },
+      "List/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/List.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/List.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Array/1.0.0": {
+      "type": "project",
+      "path": "../Array/Array.csproj",
+      "msbuildProject": "../Array/Array.csproj"
+    },
     "LinkedList/1.0.0": {
       "type": "project",
       "path": "../LinkedList/LinkedList.csproj",
       "msbuildProject": "../LinkedList/LinkedList.csproj"
+    },
+    "List/1.0.0": {
+      "type": "project",
+      "path": "../List/List.csproj",
+      "msbuildProject": "../List/List.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "LinkedList >= 1.0.0"
+      "Array >= 1.0.0",
+      "LinkedList >= 1.0.0",
+      "List >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -59,8 +91,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "D:\\MYAZ20420623\\DataStructures\\Array\\Array.csproj": {
+              "projectPath": "D:\\MYAZ20420623\\DataStructures\\Array\\Array.csproj"
+            },
             "D:\\MYAZ20420623\\DataStructures\\LinkedList\\LinkedList.csproj": {
               "projectPath": "D:\\MYAZ20420623\\DataStructures\\LinkedList\\LinkedList.csproj"
+            },
+            "D:\\MYAZ20420623\\DataStructures\\List\\List.csproj": {
+              "projectPath": "D:\\MYAZ20420623\\DataStructures\\List\\List.csproj"
             }
           }
         }

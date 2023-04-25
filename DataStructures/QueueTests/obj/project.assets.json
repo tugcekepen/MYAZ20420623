@@ -1713,6 +1713,16 @@
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
       },
+      "Array/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Array.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Array.dll": {}
+        }
+      },
       "LinkedList/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1723,11 +1733,23 @@
           "bin/placeholder/LinkedList.dll": {}
         }
       },
+      "List/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/List.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/List.dll": {}
+        }
+      },
       "Queue/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "LinkedList": "1.0.0"
+          "Array": "1.0.0",
+          "LinkedList": "1.0.0",
+          "List": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Queue.dll": {}
@@ -5530,10 +5552,20 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
+    "Array/1.0.0": {
+      "type": "project",
+      "path": "../Array/Array.csproj",
+      "msbuildProject": "../Array/Array.csproj"
+    },
     "LinkedList/1.0.0": {
       "type": "project",
       "path": "../LinkedList/LinkedList.csproj",
       "msbuildProject": "../LinkedList/LinkedList.csproj"
+    },
+    "List/1.0.0": {
+      "type": "project",
+      "path": "../List/List.csproj",
+      "msbuildProject": "../List/List.csproj"
     },
     "Queue/1.0.0": {
       "type": "project",
