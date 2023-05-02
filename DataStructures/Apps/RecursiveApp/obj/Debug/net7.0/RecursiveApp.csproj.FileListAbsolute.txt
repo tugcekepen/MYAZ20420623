@@ -1,0 +1,15 @@
+D:\MYAZ20420623\DataStructures\Apps\RecursiveApp\bin\Debug\net7.0\RecursiveApp.exe
+D:\MYAZ20420623\DataStructures\Apps\RecursiveApp\bin\Debug\net7.0\RecursiveApp.deps.json
+D:\MYAZ20420623\DataStructures\Apps\RecursiveApp\bin\Debug\net7.0\RecursiveApp.runtimeconfig.json
+D:\MYAZ20420623\DataStructures\Apps\RecursiveApp\bin\Debug\net7.0\RecursiveApp.dll
+D:\MYAZ20420623\DataStructures\Apps\RecursiveApp\bin\Debug\net7.0\RecursiveApp.pdb
+D:\MYAZ20420623\DataStructures\Apps\RecursiveApp\obj\Debug\net7.0\RecursiveApp.csproj.AssemblyReference.cache
+D:\MYAZ20420623\DataStructures\Apps\RecursiveApp\obj\Debug\net7.0\RecursiveApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\MYAZ20420623\DataStructures\Apps\RecursiveApp\obj\Debug\net7.0\RecursiveApp.AssemblyInfoInputs.cache
+D:\MYAZ20420623\DataStructures\Apps\RecursiveApp\obj\Debug\net7.0\RecursiveApp.AssemblyInfo.cs
+D:\MYAZ20420623\DataStructures\Apps\RecursiveApp\obj\Debug\net7.0\RecursiveApp.csproj.CoreCompileInputs.cache
+D:\MYAZ20420623\DataStructures\Apps\RecursiveApp\obj\Debug\net7.0\RecursiveApp.dll
+D:\MYAZ20420623\DataStructures\Apps\RecursiveApp\obj\Debug\net7.0\refint\RecursiveApp.dll
+D:\MYAZ20420623\DataStructures\Apps\RecursiveApp\obj\Debug\net7.0\RecursiveApp.pdb
+D:\MYAZ20420623\DataStructures\Apps\RecursiveApp\obj\Debug\net7.0\RecursiveApp.genruntimeconfig.cache
+D:\MYAZ20420623\DataStructures\Apps\RecursiveApp\obj\Debug\net7.0\ref\RecursiveApp.dll
