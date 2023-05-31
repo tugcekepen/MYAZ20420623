@@ -1,0 +1,12 @@
+D:\MYAZ20420623\DataStructures\Shared\Utilities\bin\Debug\net7.0\Utilities.deps.json
+D:\MYAZ20420623\DataStructures\Shared\Utilities\bin\Debug\net7.0\Utilities.dll
+D:\MYAZ20420623\DataStructures\Shared\Utilities\bin\Debug\net7.0\Utilities.pdb
+D:\MYAZ20420623\DataStructures\Shared\Utilities\obj\Debug\net7.0\Utilities.csproj.AssemblyReference.cache
+D:\MYAZ20420623\DataStructures\Shared\Utilities\obj\Debug\net7.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\MYAZ20420623\DataStructures\Shared\Utilities\obj\Debug\net7.0\Utilities.AssemblyInfoInputs.cache
+D:\MYAZ20420623\DataStructures\Shared\Utilities\obj\Debug\net7.0\Utilities.AssemblyInfo.cs
+D:\MYAZ20420623\DataStructures\Shared\Utilities\obj\Debug\net7.0\Utilities.csproj.CoreCompileInputs.cache
+D:\MYAZ20420623\DataStructures\Shared\Utilities\obj\Debug\net7.0\Utilities.dll
+D:\MYAZ20420623\DataStructures\Shared\Utilities\obj\Debug\net7.0\refint\Utilities.dll
+D:\MYAZ20420623\DataStructures\Shared\Utilities\obj\Debug\net7.0\Utilities.pdb
+D:\MYAZ20420623\DataStructures\Shared\Utilities\obj\Debug\net7.0\ref\Utilities.dll

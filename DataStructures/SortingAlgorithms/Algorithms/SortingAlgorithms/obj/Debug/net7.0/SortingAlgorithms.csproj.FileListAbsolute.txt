@@ -1,0 +1,15 @@
+D:\MYAZ20420623\DataStructures\SortingAlgorithms\Algorithms\SortingAlgorithms\obj\Debug\net7.0\SortingAlgorithms.csproj.AssemblyReference.cache
+D:\MYAZ20420623\DataStructures\SortingAlgorithms\Algorithms\SortingAlgorithms\obj\Debug\net7.0\SortingAlgorithms.GeneratedMSBuildEditorConfig.editorconfig
+D:\MYAZ20420623\DataStructures\SortingAlgorithms\Algorithms\SortingAlgorithms\obj\Debug\net7.0\SortingAlgorithms.AssemblyInfoInputs.cache
+D:\MYAZ20420623\DataStructures\SortingAlgorithms\Algorithms\SortingAlgorithms\obj\Debug\net7.0\SortingAlgorithms.AssemblyInfo.cs
+D:\MYAZ20420623\DataStructures\SortingAlgorithms\Algorithms\SortingAlgorithms\obj\Debug\net7.0\SortingAlgorithms.csproj.CoreCompileInputs.cache
+D:\MYAZ20420623\DataStructures\SortingAlgorithms\Algorithms\SortingAlgorithms\bin\Debug\net7.0\SortingAlgorithms.deps.json
+D:\MYAZ20420623\DataStructures\SortingAlgorithms\Algorithms\SortingAlgorithms\bin\Debug\net7.0\SortingAlgorithms.dll
+D:\MYAZ20420623\DataStructures\SortingAlgorithms\Algorithms\SortingAlgorithms\bin\Debug\net7.0\SortingAlgorithms.pdb
+D:\MYAZ20420623\DataStructures\SortingAlgorithms\Algorithms\SortingAlgorithms\bin\Debug\net7.0\Utilities.dll
+D:\MYAZ20420623\DataStructures\SortingAlgorithms\Algorithms\SortingAlgorithms\bin\Debug\net7.0\Utilities.pdb
+D:\MYAZ20420623\DataStructures\SortingAlgorithms\Algorithms\SortingAlgorithms\obj\Debug\net7.0\SortingAlgorithms.csproj.CopyComplete
+D:\MYAZ20420623\DataStructures\SortingAlgorithms\Algorithms\SortingAlgorithms\obj\Debug\net7.0\SortingAlgorithms.dll
+D:\MYAZ20420623\DataStructures\SortingAlgorithms\Algorithms\SortingAlgorithms\obj\Debug\net7.0\refint\SortingAlgorithms.dll
+D:\MYAZ20420623\DataStructures\SortingAlgorithms\Algorithms\SortingAlgorithms\obj\Debug\net7.0\SortingAlgorithms.pdb
+D:\MYAZ20420623\DataStructures\SortingAlgorithms\Algorithms\SortingAlgorithms\obj\Debug\net7.0\ref\SortingAlgorithms.dll
