@@ -5,16 +5,16 @@
 // Immutable - Değişmez!
 
 // overloading 
-var names1 = new Array.Array("Ahmet", "Mehmet", "Büşra", "Can","Burcu"); // sadece Array() yazdığımızda c# kendi Array'i ile karıştırıp hangisi olduğunu çözümleyemediği için kütüphane adıyla birlikte belirttik.
+var names1 = new Data_Structures.Array.Array("Ahmet", "Mehmet", "Büşra", "Can","Burcu"); // sadece Array() yazdığımızda c# kendi Array'i ile karıştırıp hangisi olduğunu çözümleyemediği için kütüphane adıyla birlikte belirttik.
 
-var names2 = new Array.Array();
+var names2 = new Data_Structures.Array.Array();
 names2.Add("Ahmet");
 names2.Add("Mehmet");
 names2.Add("Büşra");
 names2.Add("Can");
 names2.Add("Burcu");
 
-var names3 = new Array.Array{
+var names3 = new Data_Structures.Array.Array{
     "Ahmet",
     "Mehmet",
     "Büşra",
@@ -56,7 +56,7 @@ foreach (var number in numbers)
 Console.ReadKey();
 #region week-01
 // array bir instance (örnektir)
-var array = new Array.Array();
+var array = new Data_Structures.Array.Array();
 
     #region notlar
     // -  Bir sınıftan new'leme yapıyorsak ürettiğimiz şeye(burada "array") INSTANCE denir. !!!

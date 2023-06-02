@@ -1,11 +1,11 @@
-﻿using Queue.Contract;
+﻿using Data_Structures.Queue.Contract;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Queue
+namespace Data_Structures.Queue
 {
     public class ArrayQueue<T> : IQueue<T>
     {

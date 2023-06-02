@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace LinkedList.Doubly
+namespace Data_Structures.LinkedList.Doubly
 {
     public class DbLinkedListEnumerator<T> : IEnumerator<T>
     {

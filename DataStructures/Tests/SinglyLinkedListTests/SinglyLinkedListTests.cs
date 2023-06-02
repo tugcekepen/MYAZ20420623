@@ -1,4 +1,4 @@
-﻿using LinkedList.Singly;
+﻿using Data_Structures.LinkedList.Singly;
 
 namespace SinglyLinkedListTests
 {

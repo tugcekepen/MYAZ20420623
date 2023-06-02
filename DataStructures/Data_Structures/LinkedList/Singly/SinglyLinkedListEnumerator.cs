@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace LinkedList.Singly
+namespace Data_Structures.LinkedList.Singly
 {
     public class SinglyLinkedListEnumerator<T> : IEnumerator<T> //week5
     {

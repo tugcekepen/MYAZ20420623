@@ -1,5 +1,5 @@
-using LinkedList.Doubly;
-using LinkedList.Singly;
+using Data_Structures.LinkedList.Doubly;
+using Data_Structures.LinkedList.Singly;
 
 namespace DbLinkedListTests
 {

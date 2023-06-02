@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Array
+namespace Data_Structures.Array
 {
     public partial class Array : IEnumerable
     {

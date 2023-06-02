@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace Array;
+namespace Data_Structures.Array;
 public partial class Array : IEnumerable
 {
     // Object

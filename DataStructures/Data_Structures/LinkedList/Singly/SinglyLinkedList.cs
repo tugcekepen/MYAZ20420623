@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LinkedList.Singly
+namespace Data_Structures.LinkedList.Singly
 {
     public partial class SinglyLinkedList<T> : IEnumerable<T>
     {

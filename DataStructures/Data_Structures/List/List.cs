@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace List
+namespace Data_Structures.List
 {
     public class List<T> : IEnumerable<T>
     {

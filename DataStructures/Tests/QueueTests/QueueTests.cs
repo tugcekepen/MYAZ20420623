@@ -1,4 +1,4 @@
-﻿using Queue;
+﻿using Data_Structures.Queue;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +15,7 @@ namespace QueueTests
         public void LinkedListQueue_Enqueue_Test(int item)
         {
             // Arrange
-            var queue = new Queue.Queue<int>();
+            var queue = new Data_Structures.Queue.Queue<int>();
 
             // Act
             queue.Enqueue(10);   // 10
@@ -29,7 +29,7 @@ namespace QueueTests
         public void Queue_Dequeue_Test()
         {
             // Arrange
-            var queue = new Queue.Queue<int>();
+            var queue = new Data_Structures.Queue.Queue<int>();
 
             // Act
             queue.Enqueue(1);
@@ -51,7 +51,7 @@ namespace QueueTests
         public void Queue_Dequeue_ExceptionTest()
         {
             // Arrange
-            var queue = new Queue.Queue<int>();
+            var queue = new Data_Structures.Queue.Queue<int>();
 
             // Act
 
@@ -66,7 +66,7 @@ namespace QueueTests
         public void Queue_Peek_Test(int item)
         {
             // Arrange
-            var queue = new Queue.Queue<int>();
+            var queue = new Data_Structures.Queue.Queue<int>();
             queue.Enqueue(10);   // 10
             queue.Enqueue(item); // 10 5
 
@@ -83,7 +83,7 @@ namespace QueueTests
         public void Queue_IEnumerable_Ctor_Test()
         {
             //arrange - act
-            var queue = new Queue.Queue<char>("ahmet".ToArray());
+            var queue = new Data_Structures.Queue.Queue<char>("ahmet".ToArray());
 
             //assert
             Assert.Equal(5, queue.Count);

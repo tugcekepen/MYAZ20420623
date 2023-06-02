@@ -1,7 +1,7 @@
 ﻿using LinkedList.Doubly;
-using Queue.Contract;
+using Data_Structures.Queue.Contract;
 
-namespace Queue
+namespace Data_Structures.Queue
 {
     public class LinkedListQueue<T> : IQueue<T>
     {

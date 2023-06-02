@@ -12,7 +12,7 @@ namespace ArrayTests
         public void Array_Concate_Test()
         {
             //Arrange
-            var numbers = new Array.Array();
+            var numbers = new Data_Structures.Array.Array();
             numbers.Add(1);
             numbers.Add(2);
             numbers.Add(3);

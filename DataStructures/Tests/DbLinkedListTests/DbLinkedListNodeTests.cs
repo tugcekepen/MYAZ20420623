@@ -1,4 +1,4 @@
-﻿using LinkedList.Doubly;
+﻿using Data_Structures.LinkedList.Doubly;
 using System;
 using System.Collections.Generic;
 using System.Linq;

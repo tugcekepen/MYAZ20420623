@@ -1,4 +1,4 @@
-using Queue;
+using Data_Structures.Queue;
 
 namespace QueueTests
 {

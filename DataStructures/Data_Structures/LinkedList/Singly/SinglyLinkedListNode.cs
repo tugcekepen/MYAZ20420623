@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace LinkedList.Singly
+namespace Data_Structures.LinkedList.Singly
 {
     public class SinglyLinkedListNode<T>
        // where T: class // T tipini sınırlama

@@ -10,7 +10,7 @@ namespace ListTests
         public void List_Add_Test()
         {
             // Arrange
-            List.List<int> list = new List.List<int>();
+            Data_Structures.List.List<int> list = new Data_Structures.List.List<int>();
 
             // Act
             list.Add(1);
@@ -36,7 +36,7 @@ namespace ListTests
         public void List_AddRange_Test()
         {
             // Arrange
-            List.List<int> list = new List.List<int>();
+            Data_Structures.List.List<int> list = new Data_Structures.List.List<int>();
             int[] intList = new int[] { 1, 2, 3, 4, 5, 6 };
 
             // Act
@@ -57,7 +57,7 @@ namespace ListTests
         public void List_Remove_Test()
         {
             // Arrange
-            List.List<int> list = new List.List<int>();
+            Data_Structures.List.List<int> list = new Data_Structures.List.List<int>();
             int[] intList = new int[] { 1, 2, 3, 4, 5 };
 
             // Act
@@ -84,7 +84,7 @@ namespace ListTests
         public void List_RemoveAt_Test()
         {
             // Arrange
-            List.List<string> list = new List.List<string>();
+            Data_Structures.List.List<string> list = new Data_Structures.List.List<string>();
             string[] stringList = new string[] { "Mehmet", "Ahmet", "Tekin", "Ali", "Naz" };
 
             // Act
@@ -106,7 +106,7 @@ namespace ListTests
         public void List_Intersect_Test()
         {
             // Arrange
-            List.List<string> list = new List.List<string>() { "Mehmet", "Ali", "Nursel", "Mert", "Emir" };
+            Data_Structures.List.List<string> list = new Data_Structures.List.List<string>() { "Mehmet", "Ali", "Nursel", "Mert", "Emir" };
             string[] stringList = new string[] { "Mehmet", "Ahmet", "Tekin", "Ali", "Naz" };
 
             // Act
@@ -121,7 +121,7 @@ namespace ListTests
         public void List_Union_Test()
         {
             // Arrange
-            List.List<string> list = new List.List<string>() { "Mehmet", "Ali", "Nursel", "Mert", "Emir" };
+            Data_Structures.List.List<string> list = new Data_Structures.List.List<string>() { "Mehmet", "Ali", "Nursel", "Mert", "Emir" };
             string[] stringList = new string[] { "Mehmet", "Ahmet", "Tekin", "Ali", "Naz" };
 
             // Act
@@ -142,7 +142,7 @@ namespace ListTests
         public void List_Except_Test()
         {
             // Arrange
-            List.List<string> list = new List.List<string>() { "Mehmet", "Ali", "Nursel", "Mert", "Emir" };
+            Data_Structures.List.List<string> list = new Data_Structures.List.List<string>() { "Mehmet", "Ali", "Nursel", "Mert", "Emir" };
             string[] stringList = new string[] { "Mehmet", "Ahmet","Nursel", "Ali", "Mert" };
 
             // Act
